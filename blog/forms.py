@@ -31,7 +31,7 @@ class ContactsForm(ModelForm):
         widgets = {
             'title': TextInput(attrs={
                 'class': 'contacts__input',
-                'placeholder': 'Ism Familiya',
+                'placeholder': 'Имя пользователя',
 
             }),
             'email': EmailInput(attrs={
@@ -45,7 +45,7 @@ class ContactsForm(ModelForm):
             }),
             'text': Textarea(attrs={
                 'class': 'contacts__textarea',
-                'placeholder': 'Xabaringizni yozing',
+                'placeholder': 'Напишите текст',
 
             }),
         }

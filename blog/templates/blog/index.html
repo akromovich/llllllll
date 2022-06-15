@@ -10,7 +10,15 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Arch Design </title>
+        <meta name="title" content="ArchDesign" />
+        <meta name="description" content="Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, arxitektura-qurilish loyihalarini kompleks ishlab chiqishga ixtisoslashgan. Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn xizmatlarining toʻliq konseptsiyasini taklif etamiz. Biz ustuvor strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz.">
+        <meta name="keywords" content="archdesign, ArchDesign, arch & design, arch and design, architecture, archdesign.uz, arch design uz">
+        <meta property="og:title" content="ArchDesign">
+        <meta property="og:url" content="arch-design.uz">
+        <meta property="og:image" content="{% static 'img/footer_logo.png' %}">
+        <meta property="og:description" content="Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, arxitektura-qurilish loyihalarini kompleks ishlab chiqishga ixtisoslashgan. Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn xizmatlarining toʻliq konseptsiyasini taklif etamiz. Biz ustuvor strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz.">
+		<title>Arch Design</title>
+        <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -31,7 +39,7 @@
 			rel="stylesheet"
 			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
 		/>
-{#		<link rel="stylesheet" href="{% static 'css/main.css' %}" />#}
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
 	</head>
 	<body id="homepage">
 		<!-- * nav -->
@@ -143,7 +151,7 @@
 						<div class="swiper__caption">
 							<h2 class="swiper__title">{% trans 'Bizning xizmatlarimiz' %}</h2>
 							<p class="swiper__text">
-                                {% trans 'Ichki va tashqi dizayn Peyzajuy-joy, fuqarolik, sanoat suv xojaligi, qishloq xojaligimaqsadlarida obektlar va majmualarni qurish uchun loyiha-smeta hujjatlarini ishlab chiqish,shu jumladan ularning muhandislik tizimlarini loyihalash.' %}
+                                {% trans 'Turar-joy, jamoat va sanoat binolari,majmualarini qurish uchun loyiha-smeta hujjatlarini ishlab chiqish,shu jumladan ularning muhandislik tizimlarini loyihalash.Ichki va tashqi dizaynini ishlab chiqish. ' %}
 							</p>
 							<a class="swiper__link" href="{% url 'contacts' %}">{% trans 'Batafsil malumot' %}</a>
 						</div>
@@ -167,7 +175,7 @@
 						<div class="swiper__caption">
 							<h2 class="swiper__title">{% trans 'Bizning xizmatlarimiz' %}</h2>
 							<p class="swiper__text">
-                                {% trans 'Arxitektura yodgorliklarini restavratsiya qilish uchun hujjatlar Bino va inshootlarning muhandislik tarmoqlari va tizimlarini loyihalash va mualliflik nazorati.' %}
+                                {% trans 'Arxitektura yodgorliklarini restavratsiya loyihasini ishlab chiqish va mualliflik nazorati.' %}
 							</p>
 							<a class="swiper__link" href="{% url 'contacts' %}">More info</a>
 						</div>
@@ -185,7 +193,7 @@
 				<i class="fas fa-city home__icon"></i>
 				<h2 class="home__title">“Arch design Service”</h2>
 				<p class="home__text">
-                    {% trans '“Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, arxitektura-qurilish vazifalarini kompleks ishlab chiqish asosida qurilish sohasida  loyiha yechimlarini amalga oshirishga ixtisoslashgan. Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn xizmatlarining toʻliq spektrini taklif etamiz. Biz ustuvor strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz.' %}
+                    {% trans '“Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, arxitektura-qurilish loyihalarini kompleks ishlab chiqishga ixtisoslashgan. Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn xizmatlarining toʻliq konseptsiyasini taklif etamiz. Biz ustuvor strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz.' %}
 				</p>
 				<hr class="home__line" />
 				<a class="home__link" href="#">{% trans 'Biz haqimizda' %}</a>
@@ -197,7 +205,7 @@
 				<div class="info__content">
 					<h2 class="info__title">“Arch design Service”</h2>
 					<p class="info__text">
-                        {% trans 'Bizning vazifamiz Bizning maqsadimiz – mijozning investitsiya niyati va xalqaro standartlar talablarini hisobga olgan holda, barcha zamonaviy texnologiyalar, fan yutuqlari, dizayn san’ati, etika, estetikadan foydalangan holda xavfsiz, samarali va yuqori texnologiyali loyihani ishlab chiqish va amalga oshirishdir. Loyihalash, qurilish va bosh pudrat ishlarini bajarishda Buyurtmachining moliyaviy resurslaridan oqilona foydalanishni ta’minlagan holda, taklif etilayotgan xizmatlar turlarini doimiy ravishda rivojlantirish, takomillashtirish va kengaytirishga intilamiz.' %}
+                        {% trans 'Bizning vazifamiz – mijozning investitsiya niyati va xalqaro standartlar talablarini hisobga olgan holda, barcha zamonaviy texnologiyalar, fan yutuqlari, dizayn san’ati, etika, estetikadan foydalangan holda xavfsiz, samarali va yuqori texnologiyali loyihani ishlab chiqish va amalga oshirishdir. Loyihalash, qurilish va bosh pudrat ishlarini bajarishda buyurtmachining moliyaviy resurslaridan oqilona foydalanishni ta’minlagan holda, taklif etilayotgan xizmatlar turlarini doimiy ravishda rivojlantirish, takomillashtirish va kengaytirishga intilamiz.' %}
 					</p>
 					<a class="info__link" href="#">{% trans 'Batafsil' %}</a>
 				</div>
@@ -220,7 +228,7 @@
 							<i class="fas fa-envelope-open-text process__icon"></i>
 						</div>
 						<div class="process__text">
-                            {% trans 'Saytda sorov qoldiring yoki qongiroq qiling' %}
+                            {% trans 'Saytda so`rov qoldiring yoki qo`ng`iroq qiling' %}
 						</div>
 					</div>
 					<div class="process__box">
@@ -229,7 +237,7 @@
 							<i class="fas fa-pencil-alt process__icon"></i>
 						</div>
 						<div class="process__text">
-                            {% trans 'Menejer sizning kurilish obyektingizni bepul olchash uchun yozadi' %}
+                            {% trans 'Menejer sizning qurilish obyektingizni bepul o`lchash uchun ro`yxatdan o`tkazadi' %}
 						</div>
 					</div>
 					<div class="process__box">
@@ -238,7 +246,7 @@
 							<i class="fas fa-pencil-ruler process__icon"></i>
 						</div>
 						<div class="process__text">
-                            {% trans 'Mutaxassis keladi, sizga maslahat beradi va olchov qiladi' %}
+                            {% trans 'Mutaxassis keladi, sizga maslahat beradi va o`lchash ishlarini olib boradi' %}
 						</div>
 					</div>
 					<div class="process__box">
@@ -247,7 +255,7 @@
 							<i class="fas fa-file-signature process__icon"></i>
 						</div>
 						<div class="process__text">
-                            {% trans 'Loyihani muhokama qilish, Shartnoma tuzish, Oldindan tolov' %}
+                            {% trans 'Loyihani muhokama qilish, shartnoma tuzish, oldindan to`lov' %}
 						</div>
 					</div>
 					<div class="process__box">
@@ -255,7 +263,7 @@
 							<span class="process__number">6</span>
 							<i class="fas fa-file-invoice-dollar process__icon"></i>
 						</div>
-						<div class="process__text">{% trans 'Obektni etkazib berish, Yakuniy tolov' %}</div>
+						<div class="process__text">{% trans 'Obyektni yetkazib berish, Yakuniy to`lov' %}</div>
 					</div>
 				</div>
 			</div>
@@ -326,22 +334,22 @@
 							</div>
 							<ul class="footer__social">
 								<li class="footer__social--item">
-									<a class="footer__social--link" href="#">
+									<a class="footer__social--link" target="_blank" href="https://www.facebook.com/profile.php?id=100082099819128">
 										<i class="fab fa-facebook-f footer__social--icon"></i>
 									</a>
 								</li>
 								<li class="footer__social--item">
-									<a class="footer__social--link" href="#">
+									<a class="footer__social--link" target="_blank" href="https://t.me/arch_design_service">
 										<i class="fab fa-telegram-plane footer__social--icon"></i>
 									</a>
 								</li>
 								<li class="footer__social--item">
-									<a class="footer__social--link" href="https://www.youtube.com/channel/UCGQNd1FY2AbxoUl5Y2mI-Ww">
+									<a class="footer__social--link" target="_blank" href="https://www.instagram.com/arch_design_service_2017">
 										<i class="fab fa-instagram footer__social--icon"></i>
 									</a>
 								</li>
 								<li class="footer__social--item">
-									<a class="footer__social--link" href="#">
+									<a class="footer__social--link" target="_blank" href="https://www.youtube.com/channel/UCGQNd1FY2AbxoUl5Y2mI-Ww">
 										<i class="fab fa-youtube footer__social--icon"></i>
 									</a>
 								</li>
@@ -402,15 +410,18 @@
 	var setUzLang = () => {
 		elDropdownToggler.querySelector(".lang__img").src = "{% static 'flugs/uzb_flag_logo.jpg' %}";
 		elDropdownToggler.querySelector(".lang__text").textContent = "Uz";
+		{#localStorage.setItem('lang', 'uz');#}
 	};
 
 	var setRuLang = () => {
 		elDropdownToggler.querySelector(".lang__img").src = "{% static 'flugs/russia_flag_logo0.jpg' %}";
 		elDropdownToggler.querySelector(".lang__text").textContent = "Ru";
+		{#localStorage.setItem('lang', 'ru');#}
 	};
 	var setEnLang = () => {
 		elDropdownToggler.querySelector(".lang__img").src = "{% static 'flugs/enflug.jpg' %}";
 		elDropdownToggler.querySelector(".lang__text").textContent = "En";
+		{#localStorage.setItem('lang', 'en');#}
 	};
 
 	var langSelect = (evt) => {
@@ -430,7 +441,41 @@
 		}
 	};
 
+	    var sitePath = location.href;
+	    var uzRegex = new RegExp('/uz/', 'gi');
+	    var enRegex = new RegExp('/en/', 'gi');
+
+	    if (sitePath.match(uzRegex)) {
+			setUzLang();
+		}else if(sitePath.match(enRegex)){
+		    setEnLang()
+        } else {
+			setRuLang();
+		}
+
+	{#if(localStorage.getItem('lang')){#}
+	{#    var savedLang = localStorage.getItem('lang');#}
+    {##}
+	{#    if (savedLang === "uz") {#}
+	{#		setUzLang();#}
+	{#	}else if(savedLang === 'en'){#}
+	{#	    setEnLang()#}
+    {#    } else {#}
+	{#		setRuLang();#}
+	{#	}#}
+    {#}#}
+
 	elDropdown.addEventListener("click", langSelect);
+
+	{# nav scroll effect #}
+	var elNav = $('.nav');
+    window.addEventListener('scroll', function(){
+        if(window.scrollY > 225){
+            elNav.classList.add('nav-upgraded');
+        } else {
+            elNav.classList.remove('nav-upgraded');;
+        }
+    });
 })();
 
 
